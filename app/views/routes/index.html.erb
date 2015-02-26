@@ -1,0 +1,17 @@
+<% @route.each do |route| %>
+	<%= route %>
+	<p>Name:<%= route.name %></p>
+	<p>Velocity: <%= route.velocity %> </p>
+	<p>Length: <%= route.length %> </p>
+	<p>Traveltime: <%= route.traveltime %> </p>
+	<p>Timestamp: <%= route.timestamp %> </p>
+	<hr />
+<%end%>
+
+<% @parsed_json.each do |parse| %>
+	<p>JSON OBJECT: <%= parse['Timestamp'] %></p>
+	
+	<hr />
+<%end%>
+
+<%= link_to 'Add route', new_route_path %>

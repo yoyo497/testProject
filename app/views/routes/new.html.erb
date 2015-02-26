@@ -1,0 +1,16 @@
+<%= form_for @route do |f| %>
+
+	<%= f.label :timestamp %> <br />
+	<%= f.text_field :timestamp %> <br />
+	<%= f.label :name %> <br />
+	<%= f.text_field :name %> <br />
+	<%= f.label :velocity %> <br />
+	<%= f.text_field :velocity %> <br />
+	<%= f.label :length %> <br />
+	<%= f.text_field :length %> <br />
+	<%= f.label :traveltime %> <br />
+	<%= f.text_field :traveltime %> <br />
+
+	<%= f.submit %>
+
+<% end %>

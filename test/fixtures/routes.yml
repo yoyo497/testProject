@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  timestamp: MyString
+  name: MyString
+  velocity: 
+  lenght: 
+  traveltime: 
+
+two:
+  timestamp: MyString
+  name: MyString
+  velocity: 
+  lenght: 
+  traveltime: 
